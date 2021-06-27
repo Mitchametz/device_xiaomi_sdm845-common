@@ -805,6 +805,16 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
+# Widevine DRM - LA.UM.9.8.r1-02700-SDM710.0
+vendor/lib64/libminkdescriptor.so
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libqcbor.so
+vendor/lib64/libtrustedapploader.so
+vendor/lib/libminkdescriptor.so
+vendor/lib/liboemcrypto.so
+vendor/lib/libqcbor.so
+vendor/lib/libtrustedapploader.so
+
 # VPP - from PNX - RKQ1.200906.002
 vendor/bin/vppservice|555301b19a86374900159423c88efd7bd9cea2f9
 vendor/etc/configstore/vpp.configstore.xml|d5095f33c326017a21fff186d19a2ce146b85d94
@@ -819,6 +829,20 @@ vendor/lib64/libvpphvx.so|e1cfc643118f32a73d45c78929edc9815705229d
 vendor/lib64/libvpplibrary.so|3cdb980f51d0c0eecdb878eb869102c038b2f803
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so|f7769685d9c0c74f8c8419db028a5d5c3f65a9da
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so|ca1906012d0ab6dc9048aa49703833512308e6cf
+
+# VR
+vendor/lib64/hw/vr.sdm845.so
+vendor/lib/hw/vr.sdm845.so
+
+# VR - LA.UM.9.8.r1-02700-SDM710.0
+system_ext/lib64/libvr_amb_engine.so
+system_ext/lib64/libvr_object_engine.so
+system_ext/lib64/libvr_sam_wrapper.so
+system_ext/lib64/libvraudio.so
+system_ext/lib/libvr_amb_engine.so
+system_ext/lib/libvr_object_engine.so
+system_ext/lib/libvr_sam_wrapper.so
+system_ext/lib/libvraudio.so
 
 # WiFi
 vendor/bin/cnss-daemon
